@@ -1,10 +1,13 @@
 {
   "expo": {
-    "scheme": "acme",
-    "plugins": [
-      "expo-router"
-    ],
-    "name": "react_native_jobs",
-    "slug": "react_native_jobs"
+    "scheme": "your-app-scheme",
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "ios": {
+      "jsEngine": "hermes"
+    },
+    "android": {
+      "jsEngine": "hermes"
+    }
   }
 }
